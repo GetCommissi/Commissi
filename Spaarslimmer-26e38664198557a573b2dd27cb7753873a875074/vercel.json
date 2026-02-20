@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "commissi",
-  "buildCommand": "prisma migrate deploy && prisma generate && next build",
+  "buildCommand": "cd Spaarslimmer-26e38664198557a573b2dd27cb7753873a875074 && prisma migrate deploy && prisma generate && next build",
   "installCommand": "npm install",
   "framework": "nextjs",
   "functions": {
