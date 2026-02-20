@@ -1,0 +1,12 @@
+{
+  "name": "smartsn-crm",
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "PRISMA_GENERATE": "true",
+    "NEXTAUTH_SECRET": "smartsn-secret-key-2025-production",
+    "NEXTAUTH_URL": "https://smartsn-crm-lenny.vercel.app",
+    "NEXT_PUBLIC_DEMO_MODE": "true"
+  }
+}
